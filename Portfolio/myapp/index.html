@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Project Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/018c64e6bc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+    <div class="container">
+        <nav>
+                <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">My Apps</a></li>
+                <li><a href="#">Contact</a></li>
+                </ul>
+        </nav>
+        <div class="header-text">
+            <h1> Hello, I'm Mangipudi <br>Sai Vaibhav Venkat</h1>
+            <p>Front-End  Developer</p>
+        </div>
+    </div>
+
+    </div>
+
+    <!------about-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <div><img src="images/pic.jpg"></div>
+                    <div class="content"><h1 class="sub-title">About Me </h1>
+                    <p> 
+                        I am a  Information Technology student with good communication,leadership skills and<br>technical  prowess in Content writing, Web Development and Python programming language.<br>
+                        I work well with deadlines and can keep upin the pressure, Coordinating the work with a team, acing through the process of debugging and development.<br>
+                        I am looking for an opportunity at a reputed organization to do projects which are challenging and help with the mutual growth of myself and the
+                        company.
+                    </p>
+                </div>
+                </div>
+                <div class="about-col-2">
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')"> Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')"> Education</p>
+                        <p class="tab-links" onclick="opentab('Experience')"> Experience</p>
+                        <P class="tab-links" onclick="opentab('Certificates')">Certificates</P>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Using HTML , CSS , JAVASCRIPT  </li>
+                            <li><span>App Development</span><br>Using ANDROID STUDIO   </li>  
+                            <li><span>Programming Languages</span><br> PYTHON , JAVA </li>
+                            <li><span>Database</span><br>MYSQL , ORACLE</li>
+                            <li><span>Operating System</span><br>WINDOWS , LINUX</li>
+                        </ul>
+                    </div>
+
+
+
+                    <div class="tab-contents" id="Education">
+                        <table>
+                            <tr >
+                                <th>Qualification</th>
+                                <td>Btech in Information Technology</td>  
+                                <td>Board of Intermediate Education,AP</td> 
+                                <td>Board of Secondary Education,AP</td> 
+                            </tr>
+                            <tr>
+                                 <th>Institution</th>
+                                 <td>Gaytri Vidya Parisha(GVP) College of Engineering</td>
+                                 <td>Sri Chaitanya Junior college</td>
+                                 <td>Saint Francis De'Sales(SFS)School</td>
+                            </tr>
+                            <tr>
+                                <th>CGPA</th>
+                                <td>7.2/10(till date)</td>
+                                <td>7.3/10 </td>
+                                <td>8.7/10</td>
+                            </tr>
+                            <tr>
+                                <th>Year of Completion</th>
+                                <td>2024</td>
+                                <td>2020</td>
+                                <td>2018</td>
+                            </tr>
+                        </table>  
+                </div>
+
+
+
+                <div class="tab-contents" id="Experience">
+                    <p> No Experience</p>
+                </div>
+
+                <div class="tab-contents" id="Certificates">
+                    <div class="slideshow">
+                        <img id="slide1" src="1.png" alt="Slide 1">
+                        <img id="slide2" src="2.jpeg" alt="Slide 2">
+                        <img id="slide3" src="3.png" alt="Slide 3">
+                        <img id="slide4" src="4.jpg" alt="Slide 4">
+                        <img id="slide5" src="5.jpg" alt="Slide 5">
+                        <img id="slide6" src="6.jpg" alt="Slide 6">
+                      </div>                      
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-------services---------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <br>
+            <br>
+            <br>
+            <div class="services-list">
+                <div>     
+                    <i class="fa-regular fa-tablet-button"></i>
+                    <h2> Web Designing</h2>
+                    <p> This is my Web page </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <br>
+                <div>     
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App designing </h2>
+                    <p>This is my App</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----portfolio ------>
+
+    <div id="MyApps">
+        <div class="container">
+            <h1 class="sub-title">My Apps </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/music app">
+                    <a href="#"> <i class="fa-thin fa-music"></i></a>
+                    <div class="layer">
+                        <h3>Music Player App</h3>
+                        <p> This app allows you to play music </p>
+                       
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Calculator app">
+                    <a href="#"><i class="fa-solid fa-calculator"></i></a>
+                    <h3> Calculator App </h3>
+                    <p> This is an Calculator app where you can perform all mathematical calculations</p>
+                   
+                </div>
+                <div class="work">
+                    <img src="images/online shopping">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <h3> Online Shopping App  </h3>
+                    <p> This is an Online Shopping app where you can purchase anything </p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------contact----->
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <i class="fa-duotone fa-envelope"></i>
+               <a href="mailto:vaibhavvenkatm@gmail.com">Gmail:vaibhavvenkatm@gmail.com</a>
+                <a href=<i class="fa-solid fa-phone-arrow-up-right"></i></a>
+                <p>Phone No: 7032796148</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/vaibhav-mangipudi-613751215/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href='https://www.instagram.com/Vaibhav._.venkat/'><i class="fa-brands fa-square-instagram"></i></a>
+                </div> <br>
+                <br>
+                <a href="my cv.pdf" download class="btn btn2">Download CV</a>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname) {
+            var tabContentElement = document.getElementById(tabname);
+            var isActive = tabContentElement.classList.contains('active-tab');
+            
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.style.display = 'none';
+                tabcontent.classList.remove("active-tab");
+            }
+            
+            if (!isActive) {
+                tabContentElement.style.display = 'block';
+                tabContentElement.classList.add("active-tab");
+                event.currentTarget.classList.add("active-link");
+            }
+        }
+    </script>
+    <script>
+        
+        const slides = document.querySelectorAll('.slideshow img');
+
+        let currentSlide = 0;
+        const slideInterval = setInterval(nextSlide, 5000);
+
+        function nextSlide() {
+        
+        slides[currentSlide].style.display = 'none';
+
+        
+        currentSlide = (currentSlide + 1) % slides.length;
+
+        
+        slides[currentSlide].style.display = 'block';
+        }
+
+      </script>
+</body>
+</html>
